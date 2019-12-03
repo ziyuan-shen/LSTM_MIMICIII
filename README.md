@@ -79,7 +79,7 @@ Vancomycin administration: daily receipt of any dose of vancomycin
     * ICU stays more than 14 days are truncated to 14 days
     * ICU stays fewer than 14 days are padded with 0 (these days are masked out in LSTM model)
 * Missing value imputation
-    * Vital and lab missing values are filled out with a normal value
+    * Vital and lab missing values are filled out with corresponding normal value
 * Numeric values are coded as daily average values
 * Categorical variables are coded as indicators
 
