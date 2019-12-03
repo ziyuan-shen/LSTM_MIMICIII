@@ -80,10 +80,14 @@ Vancomycin administration: daily receipt of any dose of vancomycin
     * ICU stays fewer than 14 days are padded with 0 (these days are masked out in LSTM model)
 * Missing value imputation
     * Vital and lab missing values are filled out with corresponding normal value
-* Numeric values are coded as daily average values
-* Categorical variables are coded as indicators
+* Data Imbalance
+    * In the training data, exclude ICU stays that have no vancomycin receipt across all 14 days
+
 
 ### Feature Engineering
+
+* Numeric values are coded as daily average values
+* Categorical variables are coded as indicators
 
 &nbsp;| No. | Info.
 --- | --- | ---
