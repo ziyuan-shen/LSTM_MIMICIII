@@ -1,5 +1,5 @@
 # LSTM_MIMICIII
-> The project aims to employ LSTM to predict medical outcomes using MIMICIII dataset. Most work is based on [An attention based deep learning model of clinical events in the intensive care unit](https://doi.org/10.1371/journal.pone.0211057) and functions to produce similar results. Selection of features and model specifics may vary, though.
+> The project aims to employ LSTM to predict medical outcomes using [MIMIC-III](https://mimic.physionet.org/) dataset. Most work is based on [An attention based deep learning model of clinical events in the intensive care unit](https://doi.org/10.1371/journal.pone.0211057) and functions to produce similar results. Selection of features and model specifics may vary, though.
 
 ## Architecture
 
@@ -64,7 +64,7 @@ git clone https://github.com/ziyuan-shen/LSTM_MIMICIII
 
 ## Data
 
-All the source data comes from the public MIMICIII dataset ([https://mimic.physionet.org/](https://mimic.physionet.org/)).
+All the source data comes from the public MIMIC-III dataset ([https://mimic.physionet.org/](https://mimic.physionet.org/)).
 
 ## Model
 
